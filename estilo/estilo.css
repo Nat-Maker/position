@@ -1,0 +1,51 @@
+h1 {
+    color: #7bd2db;
+    text-shadow: 3px 0 0 #254d52;
+    text-align: center;
+}
+
+
+#contenedor {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(#1b1c69, #090a3d);
+    background-size: cover;
+}
+
+.encima {
+    position: absolute;
+    bottom: 59px;
+    left: 461px;
+}
+
+p{
+    font-family: 'Bellota';
+    font-size: 30px;
+}
+
+/* - - - - - - */
+
+#flo2 {
+    z-index: 2;
+    transform: scaleX(-1);
+    left: 25px;
+    top: 305px;
+    filter: hue-rotate(50deg);
+}
+
+#flo3 {
+    z-index: 2;
+    left: 875px;
+    filter: hue-rotate(50deg);
+}
+
+#lun {
+    z-index: 2;
+    top: 83px;
+    left: 415px;
+}
+
+#mon {
+    left: 0;
+    filter: blur(1.5px);
+}
